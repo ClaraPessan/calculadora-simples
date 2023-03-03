@@ -1,0 +1,8 @@
+li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul {
+    margin: 0 30px 24px 30px;
+  }  

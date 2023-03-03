@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/componentes/input/input.css">
+        <link rel="stylesheet" href="css/componentes/botoes/botao.css">
+        <link rel="stylesheet" href="css/componentes/listas/lista.css">
+        <link rel="stylesheet" href="css/componentes/cartao/cartao.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">    
+    </head>
+
+    <body>
+        <h1 class="titulo">Calculadora Simples</h1>
+        <section class="caixa">
+            <ul>
+                <li>
+                    <input type="number" id="primeiro-numero" class="placeholder-text" placeholder="Digite o primeiro número"></input>
+                    <input type="number" id="segundo-numero" class="placeholder-text" placeholder="Digite o segundo número"></input>
+                </li>
+            </ul>
+            <ul class="botoes-operadores">
+                <li><button id="adicao" onclick="adicao()">ADIÇÃO</button></li>
+                <li><button id="subtracao" onclick="subtracao()">SUBTRAÇÃO</button></li>
+                <li><button id="multiplicacao" onclick="multiplicacao()">MULTIPLICAÇÃO</button></li>
+                <li><button id="divisao" onclick="divisao()">DIVISÃO</button></li>
+                <li><button id="limpar" onclick="limpar()">LIMPAR</button></li>
+            </ul>
+        </section>
+        <h1 class="titulo">Resultado: <span></span></h1>
+    </body>
+    <script src="js/script.js"></script>
+</html>
